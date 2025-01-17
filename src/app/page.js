@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import {useState} from "react";
 
 export default function Home() {
-  const [pkg, setPkg] = useState("br.com.gabba.Caixa");
+  const [pkg, setPkg] = useState("br.com.gabba.Caixa"); //discovery: https://login.openbanking.caixa.gov.br/.well-known/assetlinks.json
   const [cefUrl, setcefUrl] = useState("");
 
   return (
